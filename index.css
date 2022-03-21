@@ -4,7 +4,7 @@ body{
 }
 body .browserstack{
     margin: auto;
-    width: 28%;
+    width: 100%;
 }
 
 body .browserstack .laptop-bg{
@@ -12,88 +12,106 @@ body .browserstack .laptop-bg{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color: white;
-    height: 286px;
+    height: 810px;
 }
 body .browserstack .laptop-bg .nav-bar {
-    font-size: 8px;
-    padding: 2%;
+    font-size: 25px;
+    padding: 1.4%;
 }
-body .browserstack .laptop-bg .nav-bar .right {
+body .browserstack .laptop-bg .nav-bar .li{
+    margin-right: 1.5%;
     float: right;
-}
-body .browserstack .laptop-bg .nav-bar .right .li{
-    margin-right: 2px;
+    font-size: 21px;
 }
 body .browserstack .laptop-bg .heading{
     text-align: center;
-    font-size: 21px;
-    width: 78%;
+    font-size: 54px;
+    width: 50%;
     margin: auto;
-    padding: 11% 0 7%;
+    padding: 9% 0 3%;
+}
+body .browserstack .laptop-bg .line1{
+    background-color: red;
+    width: 6%;
+    margin: auto;
+    height: 6px;
 }
 body .browserstack .laptop-bg .instant{
     text-align: center;
-    font-size: 11px;
-    width: 82%;
-    margin: auto;
+    font-size: 28px;
+    width: 67%;
+    margin: 3% auto;
+    letter-spacing: 1px;
+}
+body .browserstack .laptop-bg .buttons {
+    text-align: center;
+    margin: 4%;
 }
 body .browserstack .laptop-bg .buttons button {
     background-color: red;
     color: white;
     border: none;
-    border-radius: 15px;
-    padding: 2% 6%;
-    font-size: 9px;
-}
-body .browserstack .laptop-bg .buttons {
-    text-align: center;
-    margin: 4%;
+    border-radius: 47px;
+    padding: 1.5% 5%;
+    font-size: 22px;
 }
 
 
 body .browserstack .red-bg{
     background-color: #f1101e;
     color: white;
-    height: 174px;
+    height: 487px;
 }
 body .browserstack .red-bg .test{
     text-align: center;
-    font-size: 19px;
+    font-size: 48px;
     width: 78%;
     margin: auto;
-    padding: 8% 0 4%;
+    padding: 6% 0 2%;
+}
+body .browserstack .red-bg .line2{
+    background-color: #f1efed;
+    width: 6%;
+    margin: auto;
+    height: 6px;
 }
 body .browserstack .red-bg .our{
     text-align: center;
-    font-size: 11px;
-    width: 79%;
-    margin: auto;
+    font-size: 27px;
+    width: 54%;
+    margin: 2% auto;
+}
+body .browserstack .red-bg .buttons2 {
+    text-align: center;
+    margin: 2%;
 }
 body .browserstack .red-bg .buttons2 button {
     background-color: #f1efed;
     color: black;
     border: none;
-    border-radius: 15px;
-    padding: 2% 5%;
-    font-size: 9px;
+    border-radius: 37px;
+    padding: 1.5% 2.5%;
+    font-size: 22px;
     font-weight: bold;
-}
-body .browserstack .red-bg .buttons2 {
-    text-align: center;
-    margin: 4%;
 }
 
 
 body .browserstack .white-bg{
-    height: 186px;
+    height: 500px;
 }
 body .browserstack .white-bg .features{
     text-align: center;
-    font-size: 19px;
+    font-size: 47px;
     width: 78%;
     margin: auto;
-    padding: 8% 0 6%;
+    padding: 6.5% 0 1.5%;
     font-weight: bold;
+}
+body .browserstack .white-bg .line3{
+    background-color: black;
+    width: 6%;
+    margin: 0 auto 4%;
+    height: 6px;
 }
 body .browserstack .white-bg table{
     text-align: center;
@@ -102,32 +120,31 @@ body .browserstack .white-bg table{
 }
 body .browserstack .white-bg table .row2{
     font-weight: bold;
-    font-size: 12px;
+    font-size: 33px;
 }
 body .browserstack .white-bg table .row3 td{
-    font-size: 8px;
-    width: 3%;
+    font-size: 20px;
 }
 
 
 body .browserstack .black-bg{
     background-color: #444343;
     color: white;
-    height: 106px;
+    height: 300px;
 }
 body .browserstack .black-bg .sign{
     text-align: center;
-    font-size: 18px;
+    font-size: 50px;
     margin: auto;
-    padding: 5% 0 2.5%;
+    padding: 4% 0 2.5%;
 }
 body .browserstack .black-bg .buttons3 button {
     background-color: #f1101e;
     color: white;
     border: none;
-    border-radius: 15px;
-    padding: 2% 5%;
-    font-size: 9px;
+    border-radius: 40px;
+    padding: 1.5% 5%;
+    font-size: 20px;
     font-weight: bold;
 }
 body .browserstack .black-bg .buttons3 {
@@ -136,15 +153,22 @@ body .browserstack .black-bg .buttons3 {
 
 
 body .browserstack .footer{
-    font-size: 7px;
-    padding: 2%;
-    height: 19px;
+    font-size: 22px;
+    padding: 1% 2%;
+    height: 10px;
+    margin-bottom: 4%;
 }
 body .browserstack .footer .right2{
     font-weight: bold;
     float: right;
 }
 body .browserstack .footer .left2 .li{
-    margin-right: 4px;
-    font-size: 8px;
+    margin-right: 20px;
+    font-size: 20px;
 }
+
+/* responsive */
+/*body .browserstack{*/
+/*    margin: auto;*/
+/*    width: 28%;*/
+/*}*/

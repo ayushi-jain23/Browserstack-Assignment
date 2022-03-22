@@ -118,6 +118,20 @@ body .browserstack .white-bg table{
     margin: auto;
     width: 90%;
 }
+
+/*animation*/
+body .browserstack .white-bg table .row1 td .rotate-image{
+    animation: rotation 2s linear infinite;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
 body .browserstack .white-bg table .row2{
     font-weight: bold;
     font-size: 33px;
@@ -166,9 +180,3 @@ body .browserstack .footer .left2 .li{
     margin-right: 20px;
     font-size: 20px;
 }
-
-/* responsive */
-/*body .browserstack{*/
-/*    margin: auto;*/
-/*    width: 28%;*/
-/*}*/
